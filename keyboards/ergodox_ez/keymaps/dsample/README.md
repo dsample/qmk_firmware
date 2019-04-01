@@ -15,3 +15,4 @@ Previous versions of this layout were made through the [ErgoDox EZ Configurator]
 2. https://configure.ergodox-ez.com/layouts/rXN4/latest/0
 3. https://configure.ergodox-ez.com/layouts/lDGq/latest/0
 4. https://configure.ergodox-ez.com/layouts/3eLW/latest/0
+5. https://configure.ergodox-ez.com/layouts/4J6n/latest/0
