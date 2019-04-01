@@ -17,3 +17,4 @@ Previous versions of this layout were made through the [ErgoDox EZ Configurator]
 4. https://configure.ergodox-ez.com/layouts/3eLW/latest/0
 5. https://configure.ergodox-ez.com/layouts/4J6n/latest/0
 6. https://configure.ergodox-ez.com/layouts/EW5v/latest/0
+7. https://configure.ergodox-ez.com/layouts/ywDo/latest/0
