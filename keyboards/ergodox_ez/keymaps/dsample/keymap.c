@@ -223,5 +223,5 @@ uint32_t layer_state_set_user(uint32_t state) {
 };
 
 void matrix_init_user(void) {
-    steno_set_mode(STENO_MODE_BOLT); // or STENO_MODE_GEMINI
+    steno_set_mode(STENO_MODE_GEMINI); // STENO_MODE_BOLT or STENO_MODE_GEMINI
 };
