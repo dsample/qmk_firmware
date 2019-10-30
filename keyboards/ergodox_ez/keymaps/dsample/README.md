@@ -69,11 +69,12 @@ The current version of the layout is detailed below:
  * Screen divider keys are all with both Left Alt + Left GUI modifiers
  * LOCK: Lock the computer. OSX Shortcut: Left Contol + Left Shift + Power
  * Emojis: Show the character/emoji selector on OSX: Left Control + Left GUI + Space
+ * SSHOT: Take a screenshot using the built-in OSX shortcut: Left GUI + Left Shift + 5
  *
  * ,--------------------------------------------------.           ,--------------------------------------------------.
  * | Green  |      |      |      |      |      |      |           |      |      |      |      |      | LOCK |////////|
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
- * | Red    |      | NUM7 | NUM8 | NUM9 |      |  TX  |           |  TX  |      |      |      |      |      | Emojis |
+ * | Red    |      | NUM7 | NUM8 | NUM9 |      |  TX  |           |  TX  |      |      |      |      | SSHOT| Emojis |
  * |--------+------+------+------+------+------| BOLT2|           | BOLT |------+------+------+------+------+--------|
  * | Yellow |      | NUM4 | NUM5 | NUM6 |      |------|           |------|      |      |      |      |      |        |
  * |--------+------+------+------+------+------| TO 0 |           | TO 0 |------+------+------+------+------+--------|
