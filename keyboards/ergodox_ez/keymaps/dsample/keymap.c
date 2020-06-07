@@ -11,7 +11,7 @@ enum custom_keycodes {
   HSV_120_255_128,
   HSV_0_255_255,
   HSV_38_255_255,
-  HSV_300_255_128,
+  HSV_44_255_128,
   HSV_240_255_255
 };
 
@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        HSV_120_255_128,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,KC_TRANSPARENT,
        HSV_0_255_255,KC_TRANSPARENT,LALT(LGUI(KC_KP_7)),LALT(LGUI(KC_KP_8)),LALT(LGUI(KC_KP_9)),KC_TRANSPARENT,TO(4),
        HSV_38_255_255,KC_TRANSPARENT,LALT(LGUI(KC_KP_4)),LALT(LGUI(KC_KP_5)),LALT(LGUI(KC_KP_6)),KC_TRANSPARENT,
-       HSV_300_255_128,KC_TRANSPARENT,LALT(LGUI(KC_KP_1)),LALT(LGUI(KC_KP_2)),LALT(LGUI(KC_KP_3)),KC_TRANSPARENT,TO(0),
+       HSV_44_255_128,KC_TRANSPARENT,LALT(LGUI(KC_KP_1)),LALT(LGUI(KC_KP_2)),LALT(LGUI(KC_KP_3)),KC_TRANSPARENT,TO(0),
        HSV_240_255_255,KC_TRANSPARENT,KC_TRANSPARENT,LGUI(KC_KP_0),KC_TRANSPARENT,
                                             KC_TRANSPARENT,  RGB_TOG,
                                                              RGB_VAI,
@@ -144,12 +144,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       }
       return false;
       break;
-    case HSV_300_255_128:
+    case HSV_44_255_128:
       if (record->event.pressed) {
         #ifdef RGBLIGHT_ENABLE
           rgblight_enable();
           rgblight_mode(1);
-          rgblight_sethsv(300,255,128);
+          rgblight_sethsv(44,255,128);
         #endif
       }
       return false;
